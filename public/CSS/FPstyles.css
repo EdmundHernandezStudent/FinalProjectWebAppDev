@@ -1,0 +1,42 @@
+body, h1, h2, h3, h4, h5, h6, td, th, tr {
+  font-family: Georgia, serif;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+
+table {
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+.center {
+  height: 100px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px;
+    font-size: 18px;
+    width: 200px;
+} 
+
+h1, p{
+    text-align: center;
+}
+
+.back2game{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: black;
+}
+
+.back2game:hover{
+    background-color: white;
+    color: black;
+}
