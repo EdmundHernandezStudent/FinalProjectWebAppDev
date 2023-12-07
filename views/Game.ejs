@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="viewport" content="width=device-width">
+  <meta charset="utf-8">
+  <title>Final Project</title>
+  <link rel="stylesheet" type="text/css" href="CSS/FPstyles.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body class="w3-container w3-blue-grey">
+<div class="container">
+    <br>
+    <br>
+    <div class="w3-text-black">
+        <h1 style="font-size: 75px;">Dice Game</h1>
+    </div>
+    <p style="font-size: 18px;">Click the "Roll Dice" button to roll the dice. The winner is the higher scorer!</p>                        
+    <table class="table table-bordered">
+      <thead>
+        <tr>
+          <th>Player</th>
+          <th>Dice 1</th>
+          <th>Dice 2</th>
+          <th>Total</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Player</td>
+          <td id="playerDice1">-</td>
+          <td id="playerDice2">-</td>
+          <td id="playerTotal">-</td>
+        </tr>
+        <tr>
+          <td>PC</td>
+          <td id="pcDice1">-</td>
+          <td id="pcDice2">-</td>
+          <td id="pcTotal">-</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+<br>
+<div class="w3-container w3-center">
+    <div class="center">
+        <button onclick="rollDice()" type="button" class="btn btn-primary" style="font-size: 15px;">Roll Dice</button>
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+        <input id="plname" type="text" class="form-control" name="plname" placeholder="Player name">
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon"><i class="glyphicon glyphicon-king"></i></span>
+        <input id="pcname" type="text" class="form-control" name="pcname" placeholder="Computer name">
+    </div>
+    <br>
+    <br>
+    <br>
+    <div class="center">
+        <button onclick="saveGame()" type="button" class="btn btn-success" style="font-size: 15px;">Save Game Results</button>
+    </div>
+    <div class="center">
+        <p id="winner" style="font-size: 35px;"></p>
+    </div>
+    <div class="center">
+        <button onclick="location.href='/scoreboard'" type="button" class="btn btn-info" style="font-size: 15px;">Go to Scoreboard</button>
+    </div>
+</div>
+<script src="JS/FPscript.js"></script>
+
+</body>
+</html>
