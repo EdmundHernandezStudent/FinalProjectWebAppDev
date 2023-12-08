@@ -9,10 +9,7 @@ var mainPage = React.createClass({
         <meta name="viewport" content="width=device-width" />
         <meta charset="utf-8" />
         <title>Final Project</title>
-
-        <head>
-        <link rel="stylesheet" type="text/css" href="FPstyles.css">
-        </head> 
+        <link rel="stylesheet" type="text/css" href="FPstyles.css" />
 
         <div class="game-container">
         <h1>Dice Game</h1>
@@ -49,9 +46,9 @@ var mainPage = React.createClass({
 
         <div className="center">
         <label for="fname">Player's name:</label>
-        <input type="text" id="plname" name="plname"><br><br>
+        <input type="text" id="plname" name="plname"/><br/><br/>
         <label for="fname">PC's name:</label>
-        <input type="text" id="pcname" name="pcname"><br><br>
+        <input type="text" id="pcname" name="pcname"/><br/><br/>
         <button onclick="savePlayer()">Save Game Results</button>
         </div>
 
