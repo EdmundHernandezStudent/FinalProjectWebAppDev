@@ -1,6 +1,7 @@
 import React from `react`;
 import ReactDom from `react-ddom/client`;
 
+ {/*https://www.w3schools.com/react/showreact.asp?filename=demo2_react_component_many this helped greatly*/}
 
 var mainPage = React.createClass({
     render:function() {
@@ -63,5 +64,5 @@ var mainPage = React.createClass({
 );
 }});
 
-
+const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<mainPage />);
