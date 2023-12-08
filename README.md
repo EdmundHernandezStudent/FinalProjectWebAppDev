@@ -24,5 +24,8 @@ played are saved into the database each time the “roll dice” button is press
 Flexboxes will be utilized for formatting on both pages for the game and scoreboard
 respectively.
 
+Process:
+We made the webpages first. Then the node.js and the rest of the back-end. We discussed methods for the best way to make the project run. A video was made showcasing the project.
+
 
 ![image](https://github.com/EdmundHernandezStudent/FinalProjectWebAppDev/assets/111832108/af6adf85-63ce-49b6-9635-b404aa7183ed)
